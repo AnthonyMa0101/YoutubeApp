@@ -1,9 +1,9 @@
 //
 //  ViewController.m
-//  YoutubeApp
+//  YouTubeApp
 //
-//  Created by Anthony Ma on 25/7/2016.
-//  Copyright © 2016 Anthony Ma. All rights reserved.
+//  Created by Mark Meritt on 2016-07-25.
+//  Copyright © 2016 Apptist. All rights reserved.
 //
 
 #import "ViewController.h"

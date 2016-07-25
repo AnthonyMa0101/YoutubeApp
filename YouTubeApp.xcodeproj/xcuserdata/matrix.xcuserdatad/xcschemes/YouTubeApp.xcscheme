@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "92E08DC01D466DF200749913"
-               BuildableName = "YoutubeApp.app"
-               BlueprintName = "YoutubeApp"
-               ReferencedContainer = "container:YoutubeApp.xcodeproj">
+               BlueprintIdentifier = "666D82CC1D46966500A8C714"
+               BuildableName = "YouTubeApp.app"
+               BlueprintName = "YouTubeApp"
+               ReferencedContainer = "container:YouTubeApp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "92E08DC01D466DF200749913"
-            BuildableName = "YoutubeApp.app"
-            BlueprintName = "YoutubeApp"
-            ReferencedContainer = "container:YoutubeApp.xcodeproj">
+            BlueprintIdentifier = "666D82CC1D46966500A8C714"
+            BuildableName = "YouTubeApp.app"
+            BlueprintName = "YouTubeApp"
+            ReferencedContainer = "container:YouTubeApp.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "92E08DC01D466DF200749913"
-            BuildableName = "YoutubeApp.app"
-            BlueprintName = "YoutubeApp"
-            ReferencedContainer = "container:YoutubeApp.xcodeproj">
+            BlueprintIdentifier = "666D82CC1D46966500A8C714"
+            BuildableName = "YouTubeApp.app"
+            BlueprintName = "YouTubeApp"
+            ReferencedContainer = "container:YouTubeApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "92E08DC01D466DF200749913"
-            BuildableName = "YoutubeApp.app"
-            BlueprintName = "YoutubeApp"
-            ReferencedContainer = "container:YoutubeApp.xcodeproj">
+            BlueprintIdentifier = "666D82CC1D46966500A8C714"
+            BuildableName = "YouTubeApp.app"
+            BlueprintName = "YouTubeApp"
+            ReferencedContainer = "container:YouTubeApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

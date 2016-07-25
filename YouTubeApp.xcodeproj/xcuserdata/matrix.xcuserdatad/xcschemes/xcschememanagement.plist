@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>YoutubeApp.xcscheme</key>
+		<key>YouTubeApp.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>92E08DC01D466DF200749913</key>
+		<key>666D82CC1D46966500A8C714</key>
 		<dict>
 			<key>primary</key>
 			<true/>

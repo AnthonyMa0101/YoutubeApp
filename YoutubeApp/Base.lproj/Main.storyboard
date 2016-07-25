@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -16,11 +18,39 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="nXN-kt-3mV">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="youtube" translatesAutoresizingMaskIntoConstraints="NO" id="JYt-sX-25K">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="261"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="600" id="Gmt-ya-Ytn"/>
+                                    <constraint firstAttribute="width" secondItem="JYt-sX-25K" secondAttribute="height" multiplier="200:87" id="jae-8b-dWj"/>
+                                    <constraint firstAttribute="height" constant="261" id="njs-mT-Qfv"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="JYt-sX-25K" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="28Q-Hq-nAI"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="JYt-sX-25K" secondAttribute="bottom" constant="339" id="2Xk-Cz-ll8"/>
+                            <constraint firstItem="nXN-kt-3mV" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="Chc-kk-oq0"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="nXN-kt-3mV" secondAttribute="bottom" id="Nc8-wE-1EV"/>
+                            <constraint firstAttribute="trailing" secondItem="JYt-sX-25K" secondAttribute="trailing" id="Z2h-Af-LLF"/>
+                            <constraint firstItem="JYt-sX-25K" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="anT-6Y-g5v"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="nXN-kt-3mV" secondAttribute="trailing" constant="-20" id="bp8-sC-3KA"/>
+                            <constraint firstItem="nXN-kt-3mV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="kyd-PI-f09"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="455" y="400"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="background" width="1242" height="2208"/>
+        <image name="youtube" width="1242" height="726"/>
+    </resources>
 </document>
