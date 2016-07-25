@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MoodsDataSource.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UIPickerViewDelegate, UIPickerViewDataSource>
 
+
+- (IBAction)btnPressed:(id)sender;
 
 @end
 

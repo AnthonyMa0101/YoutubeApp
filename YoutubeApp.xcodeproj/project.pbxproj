@@ -20,6 +20,7 @@
 		666D82F11D4697F600A8C714 /* youtube.png in Resources */ = {isa = PBXBuildFile; fileRef = 666D82ED1D4697F600A8C714 /* youtube.png */; };
 		666D82F61D469B4800A8C714 /* UserProfile+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 666D82F31D469B4800A8C714 /* UserProfile+CoreDataProperties.m */; };
 		666D82F71D469B4800A8C714 /* UserProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 666D82F51D469B4800A8C714 /* UserProfile.m */; };
+		666D82FE1D46C96000A8C714 /* MoodsDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 666D82FD1D46C96000A8C714 /* MoodsDataSource.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,8 @@
 		666D82F31D469B4800A8C714 /* UserProfile+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UserProfile+CoreDataProperties.m"; path = "../UserProfile+CoreDataProperties.m"; sourceTree = "<group>"; };
 		666D82F41D469B4800A8C714 /* UserProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserProfile.h; path = ../UserProfile.h; sourceTree = "<group>"; };
 		666D82F51D469B4800A8C714 /* UserProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserProfile.m; path = ../UserProfile.m; sourceTree = "<group>"; };
+		666D82FC1D46C96000A8C714 /* MoodsDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MoodsDataSource.h; path = ../../YoutubeApp/YouTubeApp/MoodsDataSource.h; sourceTree = "<group>"; };
+		666D82FD1D46C96000A8C714 /* MoodsDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MoodsDataSource.m; path = ../../YoutubeApp/YouTubeApp/MoodsDataSource.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,10 +79,10 @@
 			children = (
 				666D82FB1D469B6100A8C714 /* Others */,
 				666D82FA1D469B5C00A8C714 /* View */,
-				666D82DF1D46966600A8C714 /* Assets.xcassets */,
 				666D82F91D469B5400A8C714 /* Controller */,
-				666D82E41D46966600A8C714 /* Info.plist */,
 				666D82F81D469B4E00A8C714 /* Model */,
+				666D82E41D46966600A8C714 /* Info.plist */,
+				666D82DF1D46966600A8C714 /* Assets.xcassets */,
 				666D82D01D46966500A8C714 /* Supporting Files */,
 				666D82DC1D46966500A8C714 /* YouTubeApp.xcdatamodeld */,
 			);
@@ -101,6 +104,8 @@
 				666D82F31D469B4800A8C714 /* UserProfile+CoreDataProperties.m */,
 				666D82F41D469B4800A8C714 /* UserProfile.h */,
 				666D82F51D469B4800A8C714 /* UserProfile.m */,
+				666D82FC1D46C96000A8C714 /* MoodsDataSource.h */,
+				666D82FD1D46C96000A8C714 /* MoodsDataSource.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -215,6 +220,7 @@
 				666D82F71D469B4800A8C714 /* UserProfile.m in Sources */,
 				666D82DE1D46966500A8C714 /* YouTubeApp.xcdatamodeld in Sources */,
 				666D82D51D46966500A8C714 /* AppDelegate.m in Sources */,
+				666D82FE1D46C96000A8C714 /* MoodsDataSource.m in Sources */,
 				666D82D21D46966500A8C714 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -366,6 +372,7 @@
 				666D82E91D46966600A8C714 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
