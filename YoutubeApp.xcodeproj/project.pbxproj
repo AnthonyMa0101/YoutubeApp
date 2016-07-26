@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6657DE371D47A79C0002E818 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 6657DE361D47A79C0002E818 /* settings.png */; };
+		6657DE3A1D47A8130002E818 /* Effects.png in Resources */ = {isa = PBXBuildFile; fileRef = 6657DE381D47A8130002E818 /* Effects.png */; };
+		6657DE3B1D47A8130002E818 /* How are you feeling..png in Resources */ = {isa = PBXBuildFile; fileRef = 6657DE391D47A8130002E818 /* How are you feeling..png */; };
+		6657DE3D1D47ACA80002E818 /* textbox+text.png in Resources */ = {isa = PBXBuildFile; fileRef = 6657DE3C1D47ACA70002E818 /* textbox+text.png */; };
 		666D82D21D46966500A8C714 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 666D82D11D46966500A8C714 /* main.m */; };
 		666D82D51D46966500A8C714 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 666D82D41D46966500A8C714 /* AppDelegate.m */; };
 		666D82D81D46966500A8C714 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 666D82D71D46966500A8C714 /* ViewController.m */; };
@@ -24,6 +28,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6657DE361D47A79C0002E818 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		6657DE381D47A8130002E818 /* Effects.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Effects.png; sourceTree = "<group>"; };
+		6657DE391D47A8130002E818 /* How are you feeling..png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "How are you feeling..png"; sourceTree = "<group>"; };
+		6657DE3C1D47ACA70002E818 /* textbox+text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "textbox+text.png"; sourceTree = "<group>"; };
 		666D82CD1D46966500A8C714 /* YouTubeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YouTubeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		666D82D11D46966500A8C714 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		666D82D31D46966500A8C714 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -77,6 +85,10 @@
 		666D82CF1D46966500A8C714 /* YouTubeApp */ = {
 			isa = PBXGroup;
 			children = (
+				6657DE3C1D47ACA70002E818 /* textbox+text.png */,
+				6657DE381D47A8130002E818 /* Effects.png */,
+				6657DE391D47A8130002E818 /* How are you feeling..png */,
+				6657DE361D47A79C0002E818 /* settings.png */,
 				666D82FB1D469B6100A8C714 /* Others */,
 				666D82FA1D469B5C00A8C714 /* View */,
 				666D82F91D469B5400A8C714 /* Controller */,
@@ -198,12 +210,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6657DE3B1D47A8130002E818 /* How are you feeling..png in Resources */,
+				6657DE371D47A79C0002E818 /* settings.png in Resources */,
 				666D82E31D46966600A8C714 /* LaunchScreen.storyboard in Resources */,
 				666D82EF1D4697F600A8C714 /* button.png in Resources */,
 				666D82F11D4697F600A8C714 /* youtube.png in Resources */,
 				666D82EE1D4697F600A8C714 /* background.png in Resources */,
 				666D82E01D46966600A8C714 /* Assets.xcassets in Resources */,
+				6657DE3D1D47ACA80002E818 /* textbox+text.png in Resources */,
 				666D82F01D4697F600A8C714 /* textbox.png in Resources */,
+				6657DE3A1D47A8130002E818 /* Effects.png in Resources */,
 				666D82DB1D46966500A8C714 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
